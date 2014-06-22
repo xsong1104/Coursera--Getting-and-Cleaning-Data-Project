@@ -34,6 +34,7 @@ My script for performing the analysis
 
 ## Steps to perform the analysis
 1.Get data from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" and move the data to your working directory/folder 
+
 2.Run the R script "run_analysis.R" in RStudio
 
 
