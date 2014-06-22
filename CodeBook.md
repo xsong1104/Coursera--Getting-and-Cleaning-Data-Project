@@ -66,4 +66,14 @@ ________________________________________________________________________________
     features                | Store training data read from "./data/features.txt"
     meanStdIndices          | Store mean and Standard deviation
     cleanedData             | Store data by Column joining joinSubject, joinLabel, joinData
-    result                  | Store tidy data subset
+    result                  | Store tidy data with means
+
+## Analysis Protocol
+
+1. Read data into R
+2. Merge data 
+3. Compute mean and standard deviation
+3. Clean the data: change the name and remove sign
+4. Output the tidy data set 
+5. Creates another tidy data set with the average of each variable for each activity and each subject
+6. Output the data set with means
